@@ -1,0 +1,6 @@
+framework module Pods_IrisLibraryPoc {
+  umbrella header "Pods-IrisLibraryPoc-umbrella.h"
+
+  export *
+  module * { export * }
+}
