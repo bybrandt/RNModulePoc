@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/github_account/react-native-iris-library-poc.git",
-    "baseUrl": "https://github.com/github_account/react-native-iris-library-poc"
+    "url": "git+https://github.com/bybrandt/RNModulePoc.git",
+    "baseUrl": "https://github.com/bybrandt/RNModulePoc"
   },
   "keywords": [
     "react-native"
   ],
   "author": {
-    "name": "Your Name",
-    "email": "yourname@email.com"
+    "name": "Thiago Brandt",
+    "email": "thiago.brandt@somosiris.com"
   },
   "license": "MIT",
   "licenseFilename": "LICENSE",
