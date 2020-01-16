@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5B139703FA773C61AF656328 /* Pods_IrisLibraryPoc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E92C875BC3F95F61B8A88A3E /* Pods_IrisLibraryPoc.framework */; };
 		B3E7B58A1CC2AC0600A0062D /* IrisLibraryPoc.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* IrisLibraryPoc.m */; };
+		C590B248B529BE6B4E80C511 /* Pods_IrisLibraryPoc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F6B44D906179BE10D7EAF53 /* Pods_IrisLibraryPoc.framework */; };
 		F58909BC23D0E1CA00864D32 /* IOSNativeToast.m in Sources */ = {isa = PBXBuildFile; fileRef = F58909BB23D0E1CA00864D32 /* IOSNativeToast.m */; };
 /* End PBXBuildFile section */
 
@@ -26,11 +26,11 @@
 
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libIrisLibraryPoc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libIrisLibraryPoc.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		7A5455C90BE1A32F0E51E489 /* Pods-IrisLibraryPoc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IrisLibraryPoc.release.xcconfig"; path = "Target Support Files/Pods-IrisLibraryPoc/Pods-IrisLibraryPoc.release.xcconfig"; sourceTree = "<group>"; };
-		9C063B3A42B1B9160222005B /* Pods-IrisLibraryPoc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IrisLibraryPoc.debug.xcconfig"; path = "Target Support Files/Pods-IrisLibraryPoc/Pods-IrisLibraryPoc.debug.xcconfig"; sourceTree = "<group>"; };
+		3F6B44D906179BE10D7EAF53 /* Pods_IrisLibraryPoc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IrisLibraryPoc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAE0E14F9656B5B501A7B5D8 /* Pods-IrisLibraryPoc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IrisLibraryPoc.debug.xcconfig"; path = "Target Support Files/Pods-IrisLibraryPoc/Pods-IrisLibraryPoc.debug.xcconfig"; sourceTree = "<group>"; };
 		B3E7B5881CC2AC0600A0062D /* IrisLibraryPoc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IrisLibraryPoc.h; sourceTree = "<group>"; };
 		B3E7B5891CC2AC0600A0062D /* IrisLibraryPoc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IrisLibraryPoc.m; sourceTree = "<group>"; };
-		E92C875BC3F95F61B8A88A3E /* Pods_IrisLibraryPoc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IrisLibraryPoc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C871B31E80180097E9EFA556 /* Pods-IrisLibraryPoc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IrisLibraryPoc.release.xcconfig"; path = "Target Support Files/Pods-IrisLibraryPoc/Pods-IrisLibraryPoc.release.xcconfig"; sourceTree = "<group>"; };
 		F58909BA23D0E1CA00864D32 /* IOSNativeToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOSNativeToast.h; sourceTree = "<group>"; };
 		F58909BB23D0E1CA00864D32 /* IOSNativeToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOSNativeToast.m; sourceTree = "<group>"; };
 		F58F825D23CD249000CC463F /* RCTImageLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTImageLoader.h; sourceTree = "<group>"; };
@@ -403,7 +403,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B139703FA773C61AF656328 /* Pods_IrisLibraryPoc.framework in Frameworks */,
+				C590B248B529BE6B4E80C511 /* Pods_IrisLibraryPoc.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,8 +434,8 @@
 		B4111FBFDAF3DA9A86F70A67 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9C063B3A42B1B9160222005B /* Pods-IrisLibraryPoc.debug.xcconfig */,
-				7A5455C90BE1A32F0E51E489 /* Pods-IrisLibraryPoc.release.xcconfig */,
+				AAE0E14F9656B5B501A7B5D8 /* Pods-IrisLibraryPoc.debug.xcconfig */,
+				C871B31E80180097E9EFA556 /* Pods-IrisLibraryPoc.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -444,7 +444,7 @@
 			isa = PBXGroup;
 			children = (
 				F58F825B23CD249000CC463F /* React */,
-				E92C875BC3F95F61B8A88A3E /* Pods_IrisLibraryPoc.framework */,
+				3F6B44D906179BE10D7EAF53 /* Pods_IrisLibraryPoc.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1067,7 +1067,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "IrisLibraryPoc" */;
 			buildPhases = (
-				35810F1CA8063E4EEDFC1E9E /* [CP] Check Pods Manifest.lock */,
+				8570B4567611A536EDEEB989 /* [CP] Check Pods Manifest.lock */,
 				58B511D71A9E6C8500147676 /* Sources */,
 				58B511D81A9E6C8500147676 /* Frameworks */,
 				58B511D91A9E6C8500147676 /* CopyFiles */,
@@ -1114,7 +1114,7 @@
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		35810F1CA8063E4EEDFC1E9E /* [CP] Check Pods Manifest.lock */ = {
+		8570B4567611A536EDEEB989 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1246,7 +1246,7 @@
 		};
 		58B511F01A9E6C8500147676 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9C063B3A42B1B9160222005B /* Pods-IrisLibraryPoc.debug.xcconfig */;
+			baseConfigurationReference = AAE0E14F9656B5B501A7B5D8 /* Pods-IrisLibraryPoc.debug.xcconfig */;
 			buildSettings = {
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1263,7 +1263,7 @@
 		};
 		58B511F11A9E6C8500147676 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7A5455C90BE1A32F0E51E489 /* Pods-IrisLibraryPoc.release.xcconfig */;
+			baseConfigurationReference = C871B31E80180097E9EFA556 /* Pods-IrisLibraryPoc.release.xcconfig */;
 			buildSettings = {
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
